@@ -1,0 +1,4 @@
+# how to set minimum and maximum memoery of jenkins in centos 
+
+JENKINS_JAVA_OPTIONS="-Djava.awt.headless=true -Xms2G -Xmx4G -XX:MaxPermSize=256m" 
+
